@@ -1,0 +1,24 @@
+{
+    "name": "web6/renderer",
+    "description": "Rendering PHP templates.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "WEB6",
+            "email": "contact@web6.fr"
+        }
+    ],
+    "require": {
+        "friendsofphp/php-cs-fixer": "*",
+        "dealerdirect/phpcodesniffer-composer-installer": "*",
+        "object-calisthenics/phpcs-calisthenics-rules": "*",
+        "phpcompatibility/php-compatibility": "*",
+        "wp-coding-standards/wpcs": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "W6\\Renderer\\": "src/"
+        }
+    }
+}

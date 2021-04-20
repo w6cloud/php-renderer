@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"vendor": true,
+			".vscode": true,
+			".gitignore": true,
+			"LICENSE": true,
+			"composer.lock": true
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"wwm.better-align",
+			"coenraads.bracket-pair-colorizer-2",
+			"streetsidesoftware.code-spell-checker",
+			"usernamehw.errorlens",
+			"bdsoftware.format-on-auto-save",
+			"junstyle.php-cs-fixer",
+			"felixfbecker.php-debug",
+			"neilbrayfield.php-docblocker",
+			"felixfbecker.php-pack",
+			"bmewburn.vscode-intelephense-client",
+			"felixfbecker.php-intellisense",
+			"mehedidracula.php-namespace-resolver",
+			"valeryanm.vscode-phpsab",
+			"fterrag.vscode-php-cs-fixer"
+		]
+	}
+}
